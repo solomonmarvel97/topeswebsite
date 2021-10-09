@@ -9,5 +9,47 @@ body {
     place-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: yellow;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.profile-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .profile-wrapper {
+        width: 100%;
+    }
+}
+
+.profile-image img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 300px;
+  margin: 10px;
+  margin-bottom: 2em;
+}
+
+.profile-details{
+
+}
+
+
+.profile-details label{
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.profile-details h1{
+margin-bottom: 1em;
+margin-top: 5px;
+font-size: 35px;
 }
